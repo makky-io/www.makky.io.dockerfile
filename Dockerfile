@@ -1,7 +1,7 @@
 
 
-MAINTAINER makky (makky.4d6b.3f5 [at] gmail.com)
 FROM centos:centos7
+MAINTAINER makky <makky.4d6b.3f5@gmail.com>
 
 
 # add npm package
