@@ -34,4 +34,6 @@ RUN cd makky.io && npm install && npm run build
 RUN cp -r makky.io/dst/* /usr/share/nginx/html/
 
 # port open
-EXPOSE 80 80
+EXPOSE 80
+
+CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
