@@ -36,4 +36,5 @@ RUN cp -r makky.io/dst/* /usr/share/nginx/html/
 # port open
 EXPOSE 80
 
-CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
+# CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
+CMD ["service", "nginx", "start"]
